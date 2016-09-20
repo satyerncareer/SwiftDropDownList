@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftDropDownList_Example' do
+    pod 'SwiftDropDownList', :path => '../'
+    
+    target 'SwiftDropDownList_Tests' do
+        inherit! :search_paths
+        
+        
+    end
+end
